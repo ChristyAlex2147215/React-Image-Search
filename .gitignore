@@ -4,8 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-credentials.js
-credentials
+./src/credentials.js
 
 # testing
 /coverage
