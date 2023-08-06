@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { apikey } from './credentials';
 
+//create a unsplash api project and add a project paste the api in the place of apikey
 const SearchImages = async (searchKey = 'bee') => {
   try {
     const response = await axios.get('https://api.unsplash.com/search/photos', {
